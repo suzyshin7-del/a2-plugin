@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Blob</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/pts/dist/pts.min.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <header class="hero">
+            <h1>Mood Blob</h1>
+            <p class="intro">
+                A playful interactive character built with Pts.js.<br>
+                Move your cursor and click to explore its changing moods.
+            </p>
+        </header>
+
+        <section class="demo-section">
+            <div id="pt"></div>
+            <p class="instructions">
+                Move your pointer to interact with the blob. Click on the canvas to change its mood.
+            </p>
+        </section>
+
+        <section class="rationale">
+            <h2>Design Rationale</h2>
+            <p>
+                I chose Pts.js for this proof-of-concept because it offers a lightweight
+                and flexible way to create interactive visual experiences directly in the browser.
+                I was interested in exploring how a simple geometric character could become
+                expressive through motion and pointer-based interaction. Using Pts.js made it
+                possible to connect user input with real-time changes in shape, facial expression,
+                and movement.
+            </p>
+            <p>
+                For this project, I created a playful blob character whose eyes, mouth, and body
+                respond to the user’s cursor. This approach demonstrates how JavaScript can be
+                used not only for functionality, but also for personality and engagement.
+                Beyond this proof-of-concept, similar interactions could be used in website mascots,
+                onboarding screens, educational tools, or storytelling interfaces that aim to feel
+                more dynamic and emotionally responsive.
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
